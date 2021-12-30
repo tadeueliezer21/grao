@@ -5,7 +5,7 @@ ENV APP grao-0.0.1-SNAPSHOT.jar
 
 RUN mkdir -p /opt
 
-COPY COPY ${APP_TARGET}/${APP} /opt/
+COPY ${APP_TARGET}/${APP} /opt/
 
 EXPOSE 8080
 
