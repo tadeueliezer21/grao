@@ -18,3 +18,13 @@ mvn clean && mvn install  && sudo docker build -t eli/grao-api:0.0.1 . && sudo d
 ### Documentation - Swagger API
 
 Swagger => http://localhost:18080/swagger-ui.html
+
+##### Example post value  -> rentability-controller <- 
+
+```json
+{
+  "feel": 4.25,
+  "inputValue": 100,
+  "weeks": 36
+}
+```
